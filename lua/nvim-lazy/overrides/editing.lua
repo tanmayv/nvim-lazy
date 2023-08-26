@@ -4,5 +4,9 @@ return {
     dir = "/dev/null",
     config = function() vim.cmd("packadd cfilter") end
   },
-  {"windwp/nvim-autopairs", opts = {}}
+  {
+    "numToStr/Comment.nvim", opts = {}
+  },
+  {"windwp/nvim-autopairs", opts = {}},
+  {"tanmayv/harpoon", opts = {}}
 }
