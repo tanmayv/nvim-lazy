@@ -3,7 +3,7 @@ return {
   {
     "ahmedkhalf/project.nvim",
     main = "project_nvim",
-    opts = {patterns = {"BUILD"}}
+    opts = {detection_methods = {"pattern", "lsp"}, dpatterns = {"BUILD"}, silent_chdir = false }
   },
   {
     "stevearc/oil.nvim",
