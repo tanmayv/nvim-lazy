@@ -26,5 +26,6 @@ return {
   },
   {"numToStr/Comment.nvim", opts = {}},
   {"windwp/nvim-autopairs", opts = {}},
+  {"tpope/vim-abolish"},
   {"tanmayv/harpoon", opts = {}}
 }
