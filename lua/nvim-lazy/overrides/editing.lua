@@ -67,7 +67,7 @@ return {
     }
   },
   {
-    "tanmayv/smart-replace", dev = true,
+    "tanmayv/smart-replace",
     dependencies = {"MunifTanjim/nui.nvim"},
     keys = {
       {
