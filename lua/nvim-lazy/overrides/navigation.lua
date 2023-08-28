@@ -6,6 +6,27 @@ return {
     opts = {detection_methods = {"pattern", "lsp"}, dpatterns = {"BUILD"}, silent_chdir = false }
   },
   {
+    "tanmayv/harpoon",
+    dev = true,
+    keys = {
+      {
+        "mm",
+        function() require("harpoon.mark").add_file() end,
+        desc = "[Harpoon] Add file"
+      },
+      {
+        "\\f",
+        function() require("harpoon.ui").toggle_quick_menu() end,
+        desc = "[Harpoon] File quick menu"
+      },
+      {
+        "\\c",
+        function() require("harpoon.cmd-ui").toggle_quick_menu() end,
+        desc = "[Harpoon] Cmd quick menu"
+      },
+    }
+  },
+  {
     "stevearc/oil.nvim",
     opts = {},
     keys = {
