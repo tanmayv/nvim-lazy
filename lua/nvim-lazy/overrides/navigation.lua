@@ -7,7 +7,6 @@ return {
   },
   {
     "tanmayv/harpoon",
-    dev = true,
     keys = {
       {
         "mm",
